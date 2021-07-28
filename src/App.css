@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #118AB2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,31 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.card{
+  width: 30vw;
+  height: 90vh;
+  background-color: white;
+  border: 2px solid #073B4C;
+}
+
+p{
+  color: black;
+  font-size: large;
+  border: 2px solid #073B4C;
+  padding: 6px;
+}
+
+button{
+  color: #61dafb;
+  border-radius: 8px;
+  background-color: #073b4c;
+  color: white;
+}
+
+input{
+  margin: 2vh;
 }
 
 @keyframes App-logo-spin {
